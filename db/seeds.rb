@@ -4,6 +4,6 @@ require 'faker'
 10.times do
   Article.create(
     title: Faker::Coffee.blend_name,
-    content: Faker::JapaneseMedia::StudioGhibli.quote  # generate a fake paragraph
+    content: Faker::Movies::HarryPotter.quote   # generate a fake paragraph
     )
 end
